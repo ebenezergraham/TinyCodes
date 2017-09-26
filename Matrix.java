@@ -1,13 +1,17 @@
 
 /**
- * Write a description of class Matrix here.
+ * This method transposes a given matrix
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Ebenezer Graham) 
+ * @version (1.0)
  */
 public class Matrix
 {
-    // instance variables - replace the example below with your own
+    /**
+    *
+    *@param multidimensional array with a set of elements
+    *@return multidimensional array of the transposed matrix
+    */
     public static int [] [] MatrixTranspose ( int [] [] A  ){
 		int [] [] TransposedMatrix = new int [ A.length ] [ A[0].length ];
 		for ( int a = 0 ; a < A[0].length ; a++ ){
@@ -17,8 +21,6 @@ public class Matrix
 				A [ b ] [ a ] = temp;
 			}
 		}
-		return TransposedMatrix;
-	}
-
-  
+	return TransposedMatrix;
+    }
 }
