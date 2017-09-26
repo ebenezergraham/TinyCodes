@@ -1,9 +1,15 @@
 public class fibonacci
 {
-    /**
-     * Constructor for objects of class Fib
-		@return an integer in the fibonacci sequence
-     */
+    
+     
+/**
+* This method transposes a given matrix
+*  
+* @author (Ebenezer Graham) 
+* @version (1.0)
+* @return an integer in the fibonacci sequence
+* Constructor for objects of class Fib
+*/
     public static int Fib(int n)
     {
         if (n == 0){
