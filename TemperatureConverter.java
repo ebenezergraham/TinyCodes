@@ -1,3 +1,5 @@
+package TinyCodes;
+
 
 /**
  * Provides conversions between different temparature scales
@@ -7,6 +9,7 @@ public class TemperatureConverter
    /**
     * 
     * @param centigrade the temperature in degrees centigrade
+     * @return 
     */
    public double centigradeToFahrenheit(double centigrade)
    {
@@ -17,6 +20,7 @@ public class TemperatureConverter
    /**
     * 
     * @param fahrenheit the temperature in degrees fahrenheit
+     * @return 
     */
    public double fahrenheitToCentigrade(double fahrenheit)
    {

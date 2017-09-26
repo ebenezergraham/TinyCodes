@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TinyCode;
+package TinyCodes;
 
 import java.util.Scanner;
 
@@ -17,7 +17,8 @@ public class TinyCodes {
      */    
     public static void main(String[] args) {
       
-        System.out.println("What code do you want to try?\r\n a: Generate a Password \r\n b: Check a Palindrome \r\n c: Run a fibonacci sequence"); 
+        System.out.println("What code do you want to try?\r\n a: Generate a Password \r\n "
+                + "b: Check a Palindrome \r\n c: Run a fibonacci sequence\r\n d: Transpose a Matrix \r\n e: Covert Temperate \r\n f: Store password in safe"); 
         Scanner reader = new Scanner(System.in);
         String input=reader.nextLine();
         
@@ -26,8 +27,15 @@ public class TinyCodes {
         }else if(input.equalsIgnoreCase("b")){
             Palindrome.startPalindrome();
     }else if(input.equalsIgnoreCase("c")){
-            Fibonacci fib = new Fibonacci();
-            fib.fibonacci();
+            System.out.println("Enter the sequence you want to get back");
+            input=reader.nextLine();
+            
+            Fibonacci fib = new Fibonacci(5);
+            System.out.println();
+    }else if(input.equalsIgnoreCase("d")){
+            
+    }else if(input.equalsIgnoreCase("e")){
+            
     }
 }
 }
