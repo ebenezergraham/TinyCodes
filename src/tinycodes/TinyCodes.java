@@ -30,7 +30,6 @@ public class TinyCodes {
             System.out.println("Enter the sequence you want to get back");
             input=reader.nextLine();
             
-            Fibonacci fib = new Fibonacci(5);
             System.out.println();
     }else if(input.equalsIgnoreCase("d")){
             
