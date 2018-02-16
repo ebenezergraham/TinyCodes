@@ -13,6 +13,21 @@ import java.util.Map.Entry;
  * @author Ebenezer Kwesi Akyen Graham
  */
 public class NestedList {
+//    Question:
+//    Return the color that occurs most frequently. In case of a tie, return the most frequent colors sorted alphabetically.
+//
+//    Args
+//    Image: a nested list of color values
+//
+//    Example 1-- 
+//    Input:
+//
+//    [
+//      [ 'red', 'red', 'green',],
+//      [ 'black', 'blue', 'black',],
+//      [ 'red', 'yellow', 'yellow',]
+//    ]
+//    return [red]
 
     public static void main(String args[]) {
         List<List> colors = new ArrayList<>();
