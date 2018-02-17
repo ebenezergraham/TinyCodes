@@ -70,7 +70,7 @@ public class NestedList {
                 }
             }
         }
-        //Used the the abstract class Collection to find the max value in the HashMap 
+        //Used the Collection interface to find the max value in the HashMap 
         max = Collections.max(map.values());
         // Used the Entry class to get the Key which have the same value has the 
         // highest frequency in the map
