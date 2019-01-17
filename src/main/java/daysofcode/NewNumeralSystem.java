@@ -1,3 +1,8 @@
+package daysofcode;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class NewNumeralSystem {
 	/**
 	 * Your Informatics teacher at school likes coming up with new ways to help you understand the material.

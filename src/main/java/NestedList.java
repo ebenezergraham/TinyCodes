@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tinycodes;
 
 import java.util.*;
 import java.util.Map.Entry;
@@ -30,15 +29,15 @@ public class NestedList {
 //    return [red]
 
     public static void main(String args[]) {
-        List<List> colors = new ArrayList<>();
-        Map<Object, Integer> map = new HashMap<>();
-        List<String> result = new ArrayList<>();
+        List<List> colors = new ArrayList<List>();
+        Map<Object, Integer> map = new HashMap<Object, Integer>();
+        List<String> result = new ArrayList<String>();
         int max;
         
         //Used these three temp lists to replicate the question's nested List
-        List<String> temp1 = new ArrayList<>();
-        List<String> temp2 = new ArrayList<>();
-        List<String> temp3 = new ArrayList<>();
+        List<String> temp1 = new ArrayList<String>();
+        List<String> temp2 = new ArrayList<String>();
+        List<String> temp3 = new ArrayList<String>();
         
         temp1.add("red");
         temp1.add("red");

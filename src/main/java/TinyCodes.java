@@ -3,8 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package TinyCodes;
-
 import java.util.Scanner;
 
 /**
@@ -23,7 +21,7 @@ public class TinyCodes {
         String input=reader.nextLine();
         
         if(input.equalsIgnoreCase("a")){
-             System.out.println("Copy and paste new Password: "+PasswordGenerator.generateStrongPassword());
+             System.out.println("Copy and paste new Password: "+ PasswordGenerator.generateStrongPassword());
         }else if(input.equalsIgnoreCase("b")){
             Palindrome.startPalindrome();
     }else if(input.equalsIgnoreCase("c")){
