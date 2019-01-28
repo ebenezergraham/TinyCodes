@@ -23,9 +23,9 @@ public class FirstDuplicate{
 	 */
 	
 	int firstDuplicate(int [] a){
-		Set<Integer> occurance = new HashSet<Integer>();
+		Set<Integer> elements = new HashSet<Integer>();
 		for(int element: a){
-			if(!occurance.add(element)) return element;
+			if(!elements.add(element)) return element;
 		}
 		return -1;
 	}

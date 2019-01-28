@@ -25,4 +25,7 @@ public class NewNumeralSystem {
 		}
 		return pairs.toArray(new String[pairs.size()]);
 	}
+	
+	// Example
+	//newNumeralSystem('G'); // ["A + G", "B + F", "C + E", "D + D"]
 }
