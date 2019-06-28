@@ -1,10 +1,9 @@
-<img src="https://cdn.rawgit.com/ebenezergraham/TinyCodes/2c030f45/TinyCodes.png" alt="TinyCodes" align="center">
+<img src="TinyCodes.png" alt="TinyCodes" align="center">
 
 ## Lets Begin! :zap:
 
 
-[![Website](	https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://www.pactmart.com)
-[![GPL](https://img.shields.io/aur/license/yaourt.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Website](	https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website)](https://ebenezergraham.me)
 [![Standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://queue.acm.org/detail.cfm?id=2063168)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://www.twitter.com/ebenezergraham)
@@ -14,7 +13,7 @@ Bits of code, that's how I see these codes. Nothing special just random, classes
 
 ## Contributing to TinyCodes  :seedling: :seedling:
 
-I am very happy and thrilled you want to give me a hand! Here are a few tips to get you started quickly. **NB:** All source codes can be found on the [TinyCodes Repos](https://github.com/ebenezergraham/TinyCodes). You can learn how to contribute to [GitHub Open Source Projects on egghead.io](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+I am very happy and thrilled you want to give me a hand! Here are a few tips to get you started quickly. **NB:** All source codes can be found on the [TinyCodes Repos](https://github.com/ebenezergraham/tiny-codes). You can learn how to contribute to [GitHub Open Source Projects on egghead.io](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
 - Create your own fork
 - Create a new branch whenever you want to make a pull request
