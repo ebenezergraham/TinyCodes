@@ -13,15 +13,6 @@ import java.util.Scanner;
  * @author Ebenezer Kwesi Akyen Graham
  */
 public class Euclidean {
-    public static void main (String[] args){
-        
-        Scanner reader = new Scanner(System.in);
-        int a,b;
-        System.out.println("Enter the two figures: ");
-            a=reader.nextInt();
-            b=reader.nextInt();
-        System.out.println(euclidean(a, b));
-    }
 
     public static int euclidean(int a, int b){
         if(b==0)return a;
